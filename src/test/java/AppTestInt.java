@@ -18,6 +18,6 @@ public class AppTestInt extends FluentTest {
   @Test
   public void rootTest() {
       goTo("http://localhost:4567/leap-year");
-      assertThat(pageSource()).contains("Leap-blah");
+      assertThat(pageSource()).contains("Leap-year");
   }
 }
